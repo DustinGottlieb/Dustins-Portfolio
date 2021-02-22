@@ -1,5 +1,5 @@
 # Dustins-Portfolio
-This is my Portfolio of work projects:
+My Portfolio of projects as well as a small bio:
 https://dustingottlieb.github.io/Dustins-Portfolio/
 
 Here is the repository:
