@@ -104,7 +104,7 @@ p {
     background: linear-gradient(
         rgba(255, 115, 0, 0.45), 
         rgba(66, 49, 49, 0.45)
-      ), url("/assets/images/Horiseon.JPG");
+      ), url("https://github.com/DustinGottlieb/Dustins-Portfolio/blob/main/assets/images/Horiseon.JPG?raw=true");
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
     border-radius: 8px;
@@ -115,7 +115,7 @@ p {
 }
 
 .horiseon:hover {  
-    background: url("/assets/images/Horiseon.JPG");
+    background: url("https://github.com/DustinGottlieb/Dustins-Portfolio/blob/main/assets/images/Horiseon.JPG?raw=true");
     box-shadow:  0 0 10px var(--hover);
 }
 
