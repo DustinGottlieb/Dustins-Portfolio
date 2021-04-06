@@ -7,12 +7,10 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 2%;
-    background-image: linear-gradient(
-        rgba(117, 61, 24, 0.3) 0%,
-        dimgrey
-      )
+    padding: 5px 20px 0 20px;
+    background-image: linear-gradient( rgba(117, 61, 24, 0.3) 0%, dimgrey)
 }
 
 body {
@@ -28,22 +26,26 @@ h1 {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    min-width: 300px;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
-  
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
 a {
     font-weight: bold;
     color: var(--primaryfont);
     text-decoration: none;
 }
 
-a:hover, .contact a:hover {
-    color:var(--hover);
+a:hover,
+.contact a:hover {
+    color: var(--hover);
     text-decoration: none;
-    text-shadow:1px 1px 6px #383636, 1px 1px 6px #383636;
+    text-shadow: 1px 1px 6px #383636, 1px 1px 6px #383636;
 }
 
 h2 {
@@ -51,7 +53,7 @@ h2 {
     color: var(--primaryfont);
 }
 
-img {
+.me {
     height: 300px;
     width: auto;
     float: left;
@@ -59,8 +61,13 @@ img {
     padding: 0 2% 0 0;
 }
 
+.project-content {
+    text-align: center;
+    padding: 10px;
+}
+
 .aboutme {
-  padding: 2%;
+    padding: 2%;
 }
 
 p {
@@ -79,13 +86,11 @@ p {
 }
 
 .project-column {
-    padding: 2%;
     transition: 500ms linear;
     margin-bottom: 1.5rem;
     flex: 1 1 0 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     transition: 500ms linear;
-    margin-bottom: 1.5rem;
 }
 
 .project-card {
@@ -97,42 +102,69 @@ p {
     transition: all 0.5s ease-in-out;
     text-align: center;
     border-radius: 8px;
-
 }
 
 .horiseon {
-    background: linear-gradient(
-        rgba(255, 115, 0, 0.45), 
-        rgba(66, 49, 49, 0.45)
-      ), url("https://github.com/DustinGottlieb/Dustins-Portfolio/blob/main/assets/images/Horiseon.JPG?raw=true");
+    background: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/Horiseon.JPG);
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
     border-radius: 8px;
 }
 
-.project-column:hover { 
+.NPS-App {
+    background: linear-gradient( rgba(255, 115, 0, 0.3), rgba(66, 49, 49, 0.3)), url(/assets/images/NPS-App.jpg);
+    transition: all .2s ease-in-out;
+    border: 2px solid var(--primaryfont);
+    border-radius: 8px;
+}
+
+.Daily-Planner {
+    background: linear-gradient( rgba(255, 115, 0, 0.3), rgba(66, 49, 49, 0.3)), url(/assets/images/Daily-Planner.JPG);
+    transition: all .2s ease-in-out;
+    border: 2px solid var(--primaryfont);
+    border-radius: 8px;
+}
+
+.project-column:hover {
     transform: scale(1.1);
 }
 
-.horiseon:hover {  
-    background: url("https://github.com/DustinGottlieb/Dustins-Portfolio/blob/main/assets/images/Horiseon.JPG?raw=true");
-    box-shadow:  0 0 10px var(--hover);
+.horiseon:hover {
+    background: url(/assets/images/Horiseon.JPG);
+    box-shadow: 0 0 10px var(--hover);
+}
+
+.NPS-App:hover {
+    background: url(/assets/images/NPS-App.jpg);
+    box-shadow: 0 0 10px var(--hover);
+}
+
+.Daily-Planner:hover {
+    background: url(/assets/images/Daily-Planner.JPG);
+    box-shadow: 0 0 10px var(--hover);
 }
 
 h3 {
-  font-size: 200%;
-  color: var(--primaryfont);
-  clear: both;
-  text-align: center;
+    font-size: 200%;
+    color: var(--primaryfont);
+    clear: both;
+    text-align: center;
+    padding: 10px;
 }
 
-h4, h5 {
+h4,
+h5 {
     font-size: 200%;
     color: var(--primaryfont);
     text-align: center;
     padding: 10px;
 }
 
+#resume {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
 
 .contact {
     color: var(--primaryfont);
@@ -150,15 +182,23 @@ h4, h5 {
     justify-content: center;
 }
 
- footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: baseline;
     color: var(--primaryfont);
     padding: 3%;
-    background-image: linear-gradient(
-        dimgrey,
-        rgba(117, 61, 24, 0.3)
-      )
+    background-image: linear-gradient( dimgrey, rgba(117, 61, 24, 0.3))
 }
 
+@media only screen and (max-width: 600px) {
+    header,
+    body {
+        justify-content: center;
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
