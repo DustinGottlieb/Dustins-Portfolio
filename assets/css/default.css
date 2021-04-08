@@ -105,21 +105,21 @@ p {
 }
 
 .horiseon {
-    background: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/horiseon.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/horiseon.jpg);
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
     border-radius: 8px;
 }
 
 .NPS-App {
-    background: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/npsapp.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/npsapp.jpg);
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
     border-radius: 8px;
 }
 
 .Daily-Planner {
-    background: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/dailyplanner.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/dailyplanner.jpg);
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
     border-radius: 8px;
@@ -130,17 +130,17 @@ p {
 }
 
 .horiseon:hover {
-    background: url(/assets/images/horiseon.jpg);
+    background-image: url(/assets/images/horiseon.jpg);
     box-shadow: 0 0 10px var(--hover);
 }
 
 .NPS-App:hover {
-    background: url(/assets/images/npsapp.jpg);
+    background-image: url(/assets/images/npsapp.jpg);
     box-shadow: 0 0 10px var(--hover);
 }
 
 .Daily-Planner:hover {
-    background: url(/assets/images/dailyplanner.jpg);
+    background-image: url(/assets/images/dailyplanner.jpg);
     box-shadow: 0 0 10px var(--hover);
 }
 
