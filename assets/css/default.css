@@ -108,7 +108,7 @@ p {
 }
 
 .PWGenerator {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(assets/images/projects/pwgenerator.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -116,7 +116,7 @@ p {
 }
 
 .techblog {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(assets/images/projects/techblog.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -132,7 +132,7 @@ p {
 }
 
 .Daily-Planner {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(assets/images/projects/dailyplanner.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -140,7 +140,7 @@ p {
 }
 
 .musicalmusings {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(assets/images/projects/musicalmusings.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -152,12 +152,12 @@ p {
 }
 
 .PWGenerator:hover {
-    background-image: url(assets/images/projects/pwgenerator.jpg);
+    background-image: url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/pwgenerator.jpg");
     box-shadow: 0 0 10px var(--hover);
 }
 
 .techblog:hover {
-    background-image: url(assets/images/projects/techblog.jpg);
+    background-image: url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/techblog.jpg");
     box-shadow: 0 0 10px var(--hover);
 }
 
@@ -167,12 +167,12 @@ p {
 }
 
 .Daily-Planner:hover {
-    background-image: url(assets/images/projects/dailyplanner.jpg);
+    background-image: url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/dailyplanner.jpg");
     box-shadow: 0 0 10px var(--hover);
 }
 
 .musicalmusings:hover {
-    background-image: url(assets/images/projects/musicalmusings.jpg);
+    background-image: url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/musicalmusings.jpg");
     box-shadow: 0 0 10px var(--hover);
 }
 
