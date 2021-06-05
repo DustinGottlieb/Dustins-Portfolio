@@ -124,7 +124,7 @@ p {
 }
 
 .NPS-App {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(assets/images/projects/npsapp.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg");
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
@@ -162,7 +162,7 @@ p {
 }
 
 .NPS-App:hover {
-    background-image: url(assets/images/projects/npsapp.jpg);
+    background-image: url("https://dustingottlieb.github.io/Dustins-Portfolio/assets/images/projects/npsapp.jpg");
     box-shadow: 0 0 10px var(--hover);
 }
 
