@@ -140,7 +140,7 @@ p {
 }
 
 .musicalmusings {
-    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/projects/dailyplanner.jpg);
+    background-image: linear-gradient( rgba(255, 115, 0, 0.45), rgba(66, 49, 49, 0.45)), url(/assets/images/projects/musicalmusings.jpg);
     background-size: 350px;
     transition: all .2s ease-in-out;
     border: 2px solid var(--primaryfont);
